@@ -1,8 +1,7 @@
 ########################################
 # VPC flow log module
+# refer to https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/flow-logs.html#flow-logs-iam
 ########################################
-
-// https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/flow-logs.html#flow-logs-iam
 
 data "template_file" "assume_role_policy" {
   template = "${file("${path.module}/policies/assume_role_policy.json")}"
