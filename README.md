@@ -11,5 +11,9 @@ module "flow_logs" {
 
 See the optional variables [variables.tf](variables.tf)
 
+## Dependecies
+
+This module depends on [terraform-aws-vpc](https://github.com/leandevops/terraform-aws-vpc) module.
+
 ## Author
 Created and maintained by [leandevops](https://github.com/leandevops)
