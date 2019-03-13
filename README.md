@@ -1,4 +1,4 @@
-## This is a reusable Terraform module for setting up VPC flow logs
+## Terraform module for setting up AWS VPC flow logs
 
 ## Usage
 
